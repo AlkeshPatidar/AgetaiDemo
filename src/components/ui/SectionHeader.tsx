@@ -14,6 +14,7 @@ export function SectionHeader({ title, action, className }: SectionHeaderProps) 
         "flex w-full items-center justify-between gap-4 font-medium leading-[22px] text-white",
         className,
       )}
+      
     >
       <h2 className="text-[22px] tracking-[0.66px]">{title}</h2>
       {action && (
